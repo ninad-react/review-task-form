@@ -1,35 +1,59 @@
-.container  {
-    background-color: rgb(127, 128, 128);
-    height: 500px;
-    width: 800px;
-    text-align: center;
-    margin-left: 19%;
-    margin-top: 50px;
+h1 {
+    padding: 0;
 }
 
-.input {
+.formik-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .container {
+    background-color: rgb(127, 128, 128);
+    width: 60vw;
+    text-align: center;
+  }
+  
+  .input {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10px;
     width: 100%;
-}
-
-.radio {
+  }
+  
+  .radio {
+    margin-top: 2px;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
-}
-
-label {
+    margin-bottom: 5px;
+  }
+  
+  label {
     padding-right: 20px;
-}
-
-button {
+  }
+  
+  button {
     margin: 10px;
     padding: 5px;
     background-color: cadetblue;
     color: black;
     border: 1px solid black;
     display: block;
-}
+  }
+  
+  .select {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dob {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
